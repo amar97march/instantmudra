@@ -1,0 +1,67 @@
+.row {
+  margin: 0px;
+}
+.recharge-outer {
+  background: #f1f1f1;
+  height: 100vh;
+}
+.recharge-outer .recharge-inner-container {
+  padding: 20px;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+.recharge-outer .recharge-inner-container .recharge-title {
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 40px;
+}
+.recharge-outer .recharge-inner-container .recharge-box-outer {
+  width: 788px;
+  margin: auto;
+  border: 1px solid #cfcfcf;
+  border-radius: 29px;
+  padding: 30px;
+}
+
+.recharge-outer .recharge-inner-container .recharge-box-outer .recharge-box-inner .input-data{
+  text-align: left;
+  width: 100%;
+}
+
+.recharge-outer .recharge-inner-container .recharge-box-outer .recharge-box-inner .input-data .input-field-inner {
+  margin: 10px auto;
+}
+
+.recharge-outer .recharge-inner-container .recharge-box-outer .recharge-box-inner .input-data .heading{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.recharge-outer .recharge-inner-container .recharge-box-outer .recharge-box-inner .input-data .input-field{
+  border: 1px solid #d5d5d5;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.recharge-outer .recharge-inner-container .recharge-box-outer .recharge-box-inner .functionality-btn-outer {
+  display: flex;
+  margin-top: 20px;
+}
+.recharge-outer .recharge-inner-container .recharge-box-outer .recharge-box-inner .functionality-btn-outer .check-btn{
+  background: #F1F1F1;
+  border-radius: 3px;
+  border: none;
+  width: 140px;
+  padding: 7px;
+}
+.recharge-outer .recharge-inner-container .recharge-box-outer .recharge-box-inner .functionality-btn-outer .recharge-btn{
+  background: #FF0000;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  width: 140px;
+  padding: 7px;
+}

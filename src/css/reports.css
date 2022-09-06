@@ -1,0 +1,78 @@
+.row {
+  margin: 0px;
+}
+.report-outer {
+  background: #f1f1f1;
+  height: 100vh;
+}
+.report-outer .report-inner-container {
+  padding: 20px;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+.report-outer .report-inner-container .filter-section{
+  display: flex;
+}
+.report-outer .report-inner-container .filter-section .individual-item{
+  text-align: left;
+  margin: 20px;
+}
+.report-outer .report-inner-container .filter-section .individual-item .input-outer {
+  border: 1px solid #7777774a;
+  padding: 5px;
+  /* height: 100%; */
+}
+
+.report-outer .report-inner-container .filter-section .individual-item .input-outer input{
+
+border: none;
+height: 100%;
+}
+.report-outer .report-inner-container .filter-section .individual-item .view-btn {
+  background: #FF0000;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  padding: 5px;
+  min-width: 60px;
+  margin: auto;
+  margin-bottom: 0px;
+
+}
+.report-outer .report-inner-container .filter-section .individual-item .input-outer input:focus-visible {
+  outline: none;
+}
+
+.report-outer .report-inner-container .report-section {
+  margin: 20px;
+}
+.report-outer .report-inner-container .report-section .heading{
+  font-size: 22px;
+}
+
+
+.report-outer .report-inner-container .report-section .headers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.report-outer .report-inner-container .report-section .headers .search-section {
+  display: flex;
+  margin: 20px
+}
+.report-outer .report-inner-container .report-section .headers .search-section .filter-section{
+  border: 1px solid #969696;
+  height: 90%;
+  margin-left: 10px;
+  padding: 5px;
+}
+.report-outer .report-inner-container .report-section .wallet-table th {
+  background-color: red;
+  color: white;
+}
+.report-outer .report-inner-container .report-section .wallet-table .action-btn {
+  background: none;
+  border: none;
+}
+

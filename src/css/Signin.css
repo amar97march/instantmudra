@@ -1,0 +1,193 @@
+.signin {
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  height: 100vh;
+  background: url("https://app.uat.instantmudra.co/apps/webportal/css/img/im-login-page-19.png")
+    fixed no-repeat;
+  background-size: cover;
+}
+
+.signin__container {
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  min-width: 600px;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.signin__container .logoBox {
+  text-align: center;
+  margin: 70px 0px;
+}
+.signin__container .title-forget-password {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 45px;
+}
+.signin__container .logoBox .img-responsive {
+  width: 40%;
+}
+
+.signin__container form {
+  text-align: center;
+  position: relative;
+}
+.signin__container .form-group {
+  text-align: center;
+}
+.signin__container .form-control {
+  font-size: 1.2rem !important;
+  line-height: 2 !important;
+  margin-top: 30px !important;
+  margin: auto;
+  border: 0.3px solid #ff000030;
+  border-radius: 3px;
+  width: 90%;
+}
+
+.signin__label {
+  font-weight: 400;
+  align-items: center;
+}
+
+.signin__container h2 {
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+}
+.signin__container .secure-info {
+  text-align: center;
+  width: 70%;
+  margin-top: 22px !important;
+  margin: auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.signin__container .bank-image {
+  text-align: center;
+  margin-top: 10px;
+}
+.signin__container .forget-password {
+  font-size: 20px;
+  color: red;
+  margin: auto;
+  text-align: right;
+  width: 90%;
+}
+.signin__container .forget-password a {
+  font-size: 20px;
+  color: red;
+  text-decoration: none;
+}
+
+.signin__button {
+  padding: 12px;
+  margin-top: 30px;
+  width: 30%;
+  background: #ff0000;
+  border: 0.3px solid #ff0000;
+  border-radius: 3px;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  outline: none;
+  position: relative;
+}
+
+.signin__button:focus {
+  outline: none;
+}
+
+small {
+  color: red;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgb(163, 162, 162);
+  position: relative;
+}
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid rgb(163, 162, 162);
+}
+.separator::before {
+  margin-right: 0.25em;
+}
+.separator::after {
+  margin-left: 0.25em;
+}
+
+.social_login {
+  padding: 10px;
+}
+
+.social_login .login_btn {
+  font-size: 10px;
+  position: relative;
+  width: 50%;
+}
+.signin__container .signup-btn {
+  position: relative;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+.signin__container .signup-btn a {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.back_image .back_image {
+  background-color: white;
+}
+
+.signin_container-outer-2 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.signin_outer_container .back_button .back-btn img {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+.signin_outer_container .back_button .back-btn {
+  float: left;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.signin_outer_container .back_button {
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 1px 5px -3px #888;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.signin_outer_container .back_button .nav_sidemenu_logo img {
+  height: 40px;
+}
+
+@media (max-width: 767px) {
+  .signin_outer_container .back_button {
+    height: 50px;
+  }
+  .signin {
+    margin-top: 2s0px;
+  }
+}
